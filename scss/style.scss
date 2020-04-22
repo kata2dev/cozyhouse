@@ -21,6 +21,7 @@ body{
 .header__wrap_background{
     background: url(../img/Dog.png) center right no-repeat;
     background-size: contain;
+   
 }
 
 @media (max-width: 1024px){
@@ -238,13 +239,14 @@ body{
     .navbar__links{
         display: none;
     }
+ 
+   
     .navbar__menu{
-        display: initial;
-        
+        display: initial;  
         padding-right: 3em;
-    }
-    .header__wrap_background{
-        background-position:  right;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .hero__description{
         display: none;
@@ -254,11 +256,29 @@ body{
     }
 }
 
-
-
-@media(max-width:419px){
+@media(max-width:515px){
     .header__wrap_background{
-        background-position:  210px 1em;
+        background-position: 315px 1em;
+    }
+ 
+}
+
+@media(max-width:465px){
+    .header__wrap_background{
+        background-position: 280px 1em;
+    }
+}
+
+@media(max-width:436px){
+    .header__wrap_background{
+        background-position:  250px 1em;
+
+    }
+}
+
+@media(max-width:404px){
+    .header__wrap_background{
+        background-position:  220px 1em;
 
     }
 }
@@ -266,9 +286,15 @@ body{
 
 @media(max-width:375px){
     .header__wrap_background{
+        background-position:  196px 1em;
+     
+    }
+}
+
+@media(max-width:335px){
+    .header__wrap_background{
         background-position:  180px 1em;
      
     }
-
-
 }
+
